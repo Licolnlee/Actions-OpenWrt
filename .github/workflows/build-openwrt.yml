@@ -122,7 +122,6 @@ jobs:
       working-directory: ./
       run: |
        git clone --depth=1 $REPO_URL -b $REPO_BRANCH openwrt
-       git checkout 5945bf489fa831f6f990832c27739ad2598a2b34
 
     - name: Load custom feeds
       run: |
